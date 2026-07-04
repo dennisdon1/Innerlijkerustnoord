@@ -47,6 +47,33 @@ function Router() {
       <Nav />
       <main>
         <Hero />
+        <div
+          className="w-full py-10 px-6 flex flex-col sm:flex-row items-center justify-center gap-4 sm:gap-8"
+          style={{ backgroundColor: '#D4A373' }}
+        >
+          <span
+            className="font-sans text-xs tracking-[0.4em] uppercase font-medium"
+            style={{ color: 'rgba(26,31,20,0.65)' }}
+          >
+            Mark de datum
+          </span>
+          <span
+            className="font-serif leading-none"
+            style={{
+              color: '#1a1f14',
+              fontSize: 'clamp(2.2rem, 6vw, 4rem)',
+              letterSpacing: '-0.02em',
+            }}
+          >
+            Opening <em className="font-light italic">12 juli</em>
+          </span>
+          <span
+            className="font-sans text-xs tracking-[0.4em] uppercase font-medium"
+            style={{ color: 'rgba(26,31,20,0.65)' }}
+          >
+            Mark de datum
+          </span>
+        </div>
         <About />
         <YinYoga />
         <HathaYoga />
