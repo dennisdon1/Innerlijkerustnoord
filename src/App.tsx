@@ -55,7 +55,7 @@ function Router() {
             className="font-sans text-xs tracking-[0.4em] uppercase font-medium"
             style={{ color: 'rgba(26,31,20,0.65)' }}
           >
-            Mark de datum
+            Markeer de datum
           </span>
           <span
             className="font-serif leading-none"
@@ -71,7 +71,7 @@ function Router() {
             className="font-sans text-xs tracking-[0.4em] uppercase font-medium"
             style={{ color: 'rgba(26,31,20,0.65)' }}
           >
-            Mark de datum
+            Wees welkom
           </span>
         </div>
         <About />
